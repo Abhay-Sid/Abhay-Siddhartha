@@ -1,0 +1,134 @@
+{
+"Curve": {
+    "AST_Rebuild Curve (Spline Index Remapper)":"Rebuilds curve topology by reassigning points to new splines based on Group ID attributes. Outputs reindexed curves with uniform cyclic state control.\nUse cases:\n• Merge multiple splines into one (assign identical Group IDs)\n• Split single splines into segments\n• Reorder spline rendering",
+    "AST_Change Spline Type":"Dynamically converts spline types (Poly/Bezier/Catmull-Rom/NURBS) with selection-based controls. Enables corner smoothing and automatic handle manipulation. \n Use case: Convert jagged poly curves into smooth organic shapes.\n ",
+    "AST_Curve Deform":"Deforms input geometry along a target curve while preserving local shapes. Axis selection determines alignment direction. \n Features: \n •\tSupports scene objects or geometry node curves \n •\tHandles multi-spline objects via Curve Index input \n •\tPreserves original topology \n •\tAllows post-deformation adjustments\n ",
+    "AST_Curve Optimize (for edge path to curves)":"Reduces curve density from ‘Edge Path to Curves’ outputs by resolving overlaps.",
+    "AST_Curve Optimization Iteration":"Optimizes overlapping curves through iterative processing. Requires multiple runs to achieve optimal results.",
+    "AST_Loft Curves":"Generates seamless tubular surfaces between profile curves. Offers precise mesh density and interpolation controls.\nUse cases: Pipes, tentacles, parametric surfaces.",
+    "AST_Loop Curve":"(Retained as educational reference).",
+    "AST_Curve Rebuilder (Curve Island Index)":"Converts branching curves into mesh to extract island indices, then reconstructs curves with matching point counts. Automatically adjusts spline direction.",
+    "AST_Skin Curve":"Converts curves into tubular meshes with radius/resolution/UV controls. Generates clean topology for pipes, cables, or organic forms.",
+    "AST_Spline Factor":"Generates factor attributes along curves with individual spline parameters.",
+    "AST_Curves Splitter":"Splits spline endpoints into 2, 3, or random branches. Features randomization, split-point control, and directional settings for foliage/tree creation."
+  },
+  
+  "Curve Primitives": {
+    "AST_Bezier":"Reorganized quadratic Bezier with simplified parameters exposed in modifiers. Includes direct spline factor/length outputs for foliage creation.",
+    "AST_Curve Arch":"Arch-shaped curve for architectural elements (self-explanatory parameters).",
+    "AST_Half Star":"Star curve bisected vertically. Combine with ‘Change Spline Type’ for organic leaf shapes.",
+    "AST_Mirrored Bezier":"Mirrored quadratic Bezier with streamlined controls for curve profiling.",
+    "AST_Natural Spiral":"Biomimetic curve replicating plant/tendril growth patterns. Ideal for ferns, branches, and foliage.",
+    "AST_Nuclear Curve":"Nuclear hazard-shaped curve. Adaptable for Livistona leaves or mandala patterns when combined with 'AST_Change Spline Type."
+  },
+
+  "Examples": {
+    "AST_Cotten Square":"Bloom-capable cotton square demonstrating organic shape techniques.",
+    "AST_Curvy Branch":"Singular branch generator showcasing 'AST_Natural Spiral' applications.",
+    "AST_Infinity":"Infinity-symbol curve for animations or parametric designs.",
+    "AST_Leaf-simple":"Leaf generator using AST_'Bezier' and 'AST_Mirrored Bezier' nodes with extensive shape controls.",
+    "AST_Ligulate-Petal":"Ligulate petal generator for daisy-like flowers.",
+    "AST_Lofting with profiles":"Demo of 'AST_Loft Curve' with auto-sorting profiles attached to input Bezier curves.",
+    "AST_Palm Lanceolate":"Palm leaf segment generator adaptable to similar tree species.",
+    "AST_Petal 2":"Wildflower-style petal using 'AST_Natural Spiral'.",
+    "AST_Shortest edge path optimize":"Demonstrates geometry optimization for edge-path workflows."
+  },
+
+  "Generators": {
+    "AST_Di-Circle Pattern":"Circular mandala generator using two vector circles.",
+    "AST_Gothic Table Generator":"Round Gothic-style table with 18 customizable parameters.",
+    "AST_Pattern {2}":"Advanced circular pattern generator with enhanced controls.",
+    "AST_Pottery":"Pot generator from Bezier profile curves (single-side input).",
+    "AST_Rock Generator":"Procedural rock/boulder generator with custom shape inputs and remeshing options.",
+    "AST_Tree - 50+":"Tree generator with 50+ parameters for fantasy, spooky, or natural trees."
+  },
+
+  "Geometry":{
+    "AST_Align to Grid Plane":"Aligns geometry’s lowest point to the viewport grid.",
+    "AST_Bounding Box+":"Enhanced bounding box with corner positions, center points, scale, and surface area outputs.",
+    "AST_Bounding Box Group Index":"Generates bounding boxes for mesh islands using group indices.\nCredit: Erindale’s tutorial.",
+    "AST_Bounding Grid":"Creates XY-aligned grids at geometry’s lowest point.",
+    "AST_Bounding Lattice":"Generates bounding-box-conforming lattices.",
+    "AST_Rotate Geometry":"Rotates geometry subsets using field inputs and falloff controls.",
+    "AST_Self Iterate Geometry":"Recursively distributes geometry on its own points.\nWarning: Use only with low-vertex meshes to prevent crashes.",
+    "AST_Selective Join geometry":"Joins up to 5 geometries via index switching for component visibility control.",
+    "AST_Simplify for Viewport":"Swaps heavy geometry with convex hulls during viewport navigation.",
+    "AST_Transform Geometry +":"Field-enabled transform node with customizable pivot points."
+  },
+
+  "Instance": {
+    "AST_Align Instance to Topology":"Aligns instances to face normals and geometry centers.",
+    "AST_Alternative Distribution":"Distributes instances in alternating directions along curves for foliage.",
+    "AST_Bounding Box Instances":"Creates instance bounding boxes.\nCredit: Erindale’s tutorial.",
+    "AST_Circular Distribution":"Circular instance distribution with tilt/twist/rotation controls.",
+    "AST_Collection Info+":"Enhanced collection info with bounding boxes and MIN/MAX vectors for packing.Credit: Erindale’s tutorial.",
+    "AST_Collection Info Custom Index":"Indexes collection items by axis position or circular order.",
+    "AST_Instance Packer":"Packs variably-sized objects using 'AST_Collection Info+'.",
+    "AST_Instance on Edges":"Distributes instances on edges with surface-normal alignment."
+  },
+
+  "Mesh primitives": {
+    "AST_Aloe vera leaf":"An Aloe Vera leaf generator. Can be modified to make similar plants too, e.g. cacti.",
+    "AST_Balloon":"Optimized as instance placeholders.",
+    "AST_Icosahedron":"Optimized as instance placeholders.",
+    "AST_Julia fractal":"A 4D fractal called julia.",
+    "AST_Lattice":"A lattice generator, useful for making buildings, houses etc.",
+    "AST_Prism":"Optimized as instance placeholders.",
+    "AST_Pyramid":"Optimized as instance placeholders.",
+    "AST_Slicing Circle":"A circle that can be bisected at any point. placeholder for leaves",
+    "AST_Tetrahedron":"Optimized as instance placeholders."
+  },
+
+  "Modifiers":{
+    "AST_Add Scales":"Adds 3D scales to the surface of the input geometry.",
+    "AST_Damage Geometry":"Simulates weathered/aged surfaces.",
+    "AST_Fractal Shaper":"Modulates the input geometry to a stepped look. Useful in landscape creation for creating the different layers of the terrain.",
+    "AST_Mirror geometry":"Mirrors geometry across X/Y axes.",
+    "AST_Points to Lattice":"Converts points to lattices for abstract art or shaped plants.",
+    "AST_Surface Cobble":"Generates cobblestone surfaces for walls/paths.",
+    "AST_Terrain Displacement":"Displace a height map into a terrain with precise control and subdivisions setup.",
+    "AST_Trim Geometry":"Trims geometry on X/Y/Z axes using Booleans."
+  },
+
+  "Point":{
+    "AST_Distribute Points in Curve":"Distributes points within curve boundaries with density/randomization controls.",
+    "AST_Phyllotaxis":"Phyllotaxis-pattern points for organic structures.",
+    "AST_Points to Spline":"Converts points to splines with type selection and radial weight options."
+  },
+
+  "Selection":{
+    "AST_Expand Selection":"Expands Boolean selections by one vertex radially.\nCredit: Erindale’s tutorial.",
+    "AST_Mesh Proximity":"Generates masks/falloffs based on geometry distance/clipping.",
+    "AST_Minimun Distance":"Outputs distances between geometries with epsilon-based selections.",
+    "AST_Nearest Point Selection":"Selects points closest to a target object.",
+    "AST_Select by Direction":"Selects geometry facing specific angles.",
+    "AST_Select by Normal":"Selects based on normal vectors.",
+    "AST_Select by Position":"Selects geometry beyond/within positional thresholds.",
+    "AST_Select by Index":"Selects vertices by index patterns (e.g., every 2nd vertex)."
+  },
+
+  "Utilities": {
+    "AST_Accumulate on Curve":"Accumulates curve position/tangent/normal data at specified points.",
+    "AST_Degree":"Value node accepting degree inputs.",
+    "AST_Flip Indices":"Swaps 2D grid indices.\nCredit: Erindale’s tutorial.",
+    "AST_Fold Attribute":"Folds attributes at specified values (e.g., 0→1→0).",
+    "AST_Grid Index":"Projects custom indices onto XY coordinates for seamless geometry joining.",
+    "AST_Map Attribute":"Remaps attributes to 0-1 range with auto-clamping.",
+    "AST_Store Edge Angle":"Stores signed/unsigned edge angles for texturing.",
+    "AST_Value++":"Enhanced value node with integer/random/percentage outputs.",
+    "AST_View Instance Attribute":"Visualizes instance attributes via weighted points."
+  },
+
+  "Vector":{
+    "AST_Add Noise":"Displaces geometry with procedural noise.",
+    "AST_Cube Projection":"Generates sharp-cornered UV maps for hard-surface modeling (attribute: 'Cube_Projection').",
+    "AST_Cylinder Projection":"Creates 3-segment UVs for cylindrical objects (attribute: 'Cylinder_Projection').",
+    "AST_Landscape Projection":"Specialized UVs for terrains with angle-based top/bottom blending (attribute: 'Landscape_Projection').",
+    "AST_Map Vector Attribute":"Remaps vector attributes to 0-1 range.",
+    "AST_Ping Pong Vector":"Oscillates vector inputs between ranges.",
+    "AST_Sphere Projection":"Generates spherical UVs via horizontal/vertical arcs.",
+    "AST_Triplanner Projection":"Creates blended UVs for smooth surfaces (attribute: 'Triplanar_Projection').",
+    "AST_XYZ arc":"Generates three radial arcs for spherical coordinates or custom weights."
+
+  }
+}
