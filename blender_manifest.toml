@@ -1,0 +1,38 @@
+schema_version = "1.0.0"
+
+id = "abhay_toolkit"
+version = "0.9.25"
+name = "Abhay's ToolKit"
+tagline = "A custom addon for enhanced node workflows in geometry nodes"
+maintainer = "Abhay Siddahrtha <sidabhay128125@gmail.com>"
+type = "add-on"
+tag = "Geometry Nodes"
+
+website = "https://github.com/Abhay-Sid/Abhay-Siddhartha.git"
+
+
+blender_version_min = "4.2.8"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+# platforms = ["windows-x64", "macos-arm64", "linux-x64", "windows-arm64", "macos-x64"]
+
+[build]
+
+paths_exclude_pattern = [
+  "__pycache__/",
+  ".git/",
+  "*.zip",
+  "*.txt",
+  "build/",
+  "screenshots/",
+  "test/",
+  "version_control",
+  "testing.py",
+  "test_file.blend",
+  "geometry_nodes.json",
+  "tool_tips.json",
+  "README.md"
+]
