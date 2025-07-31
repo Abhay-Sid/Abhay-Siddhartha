@@ -6,8 +6,6 @@ A custom Blender extension that enhances procedural modeling workflows with 100+
 
 
 
-!\[Header Banner or Logo (optional)](https://your-image-link-if-any)
-
 
 
 ---
@@ -99,8 +97,8 @@ Abhay's\_Tool-Kit/
 
 Complete documentation with node descriptions, category overview, and practical examples is available in:
 
-- [📄 PDF Guide (Download)](https://your-link)
-- [📊 PPT Presentation (Download)](https://your-link)
+- [📄 PDF Guide (Download)](https://github.com/Abhay-Sid/Abhay-Siddhartha/blob/master/Abhay%E2%80%99s_Tool-Kit_02.pdf)
+- [📊 PPT Presentation (Download)](https://github.com/Abhay-Sid/Abhay-Siddhartha/blob/master/Abhay%E2%80%99s_Tool-Kit_02.pptx)
 
 ---
 
