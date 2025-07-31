@@ -36,7 +36,11 @@ Organizations or individuals wishing to:
 ✔ No copyleft obligations or source code disclosure  
 ✔ Direct support (if applicable) and early access to updates
 
-▶ License available via: [your-site-or-marketplace-link]
+▶ License available via: [
+    https://www.artstation.com/abhaysiddhartha/store/
+    (toolkit_website - comming soon)
+    contact - sidabhay128125@gmail.com
+    ]
 
 --------------------------------------------------------------------------------
 3. Studio License – Team Use and Centralized Preset Management
