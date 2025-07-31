@@ -1,0 +1,73 @@
+Abhay’s Tool-Kit – Blender Geometry Nodes Add-on
+Copyright (C) 2022–2025 Abhay Ratan Siddhartha
+SPDX-License-Identifier: GPL-3.0-or-later
+
+This project is dual-licensed under the terms described below:
+
+--------------------------------------------------------------------------------
+1. Open Source License – GNU General Public License v3.0 or later (GPL-3.0-or-later)
+--------------------------------------------------------------------------------
+
+You are free to use, modify, and distribute this add-on under the terms of the
+GNU General Public License, version 3 or (at your option) any later version.
+See https://www.gnu.org/licenses/gpl-3.0.html for full terms.
+
+**Key Permissions:**
+- Use the add-on personally or educationally
+- Study and modify the source code
+- Share modified or unmodified copies under the same license
+
+**Note:** Any assets or content created with the add-on can be used freely and
+are not required to be open-sourced.
+
+--------------------------------------------------------------------------------
+2. Commercial License – Royalty-Free Asset Creation
+--------------------------------------------------------------------------------
+
+Organizations or individuals wishing to:
+- Use this add-on as part of **commercial pipelines**
+- Integrate it into **paid training**, **courses**, or **products**
+- Distribute internally across teams without disclosing source code
+
+...must purchase a **Commercial License**. This license grants you:
+
+✔ Use of the add-on in closed-source commercial projects  
+✔ Royalty-free distribution of 3D models or assets made with it  
+✔ No copyleft obligations or source code disclosure  
+✔ Direct support (if applicable) and early access to updates
+
+▶ License available via: [your-site-or-marketplace-link]
+
+--------------------------------------------------------------------------------
+3. Studio License – Team Use and Centralized Preset Management
+--------------------------------------------------------------------------------
+
+For studios and teams needing:
+- Multi-user deployment
+- Centralized preset synchronization
+- Priority support or integration help
+
+...a **Studio License** is required. This license includes all Commercial rights,
+plus team-wide installation and support.
+
+▶ Studio licensing inquiries: sidabhay128125@gmail.com
+
+--------------------------------------------------------------------------------
+4. Disclaimer
+--------------------------------------------------------------------------------
+
+This software is provided “as-is” without warranty of any kind. Use at your own risk.
+Support is only provided to Commercial or Studio license holders unless otherwise agreed.
+
+--------------------------------------------------------------------------------
+5. License Summary
+--------------------------------------------------------------------------------
+
+| License Type | Usage                   | Source Code | Support | Team Use |
+|--------------|-------------------------|-------------|---------|----------|
+| GPL          | Personal, Open-Source   | Required    | No      | No       |
+| Commercial   | Freelancers, Creators   | Not Shared  | Yes     | No       |
+| Studio       | Teams, Studios          | Not Shared  | Yes     | Yes      |
+
+--------------------------------------------------------------------------------
+
