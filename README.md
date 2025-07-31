@@ -97,8 +97,8 @@ Abhay's\_Tool-Kit/
 
 Complete documentation with node descriptions, category overview, and practical examples is available in:
 
-- [📄 PDF Guide (Download)](https://github.com/Abhay-Sid/Abhay-Siddhartha/blob/master/Abhay%E2%80%99s%20Tool-Kit.pdf)
-- [📊 PPT Presentation (Download)](https://github.com/Abhay-Sid/Abhay-Siddhartha/blob/master/Abhay%E2%80%99s%20Tool-Kit.pptx)
+- [📄 PDF Guide (Download)](https://github.com/Abhay-Sid/Abhay-Siddhartha/blob/master/Abhay%E2%80%99s_Tool-Kit_02.pdf)
+- [📊 PPT Presentation (Download)](https://github.com/Abhay-Sid/Abhay-Siddhartha/blob/master/Abhay%E2%80%99s_Tool-Kit_02.pptx)
 
 ---
 
