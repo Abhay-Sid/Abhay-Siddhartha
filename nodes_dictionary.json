@@ -109,7 +109,6 @@
 
   "Utilities": {
     "AST_Accumulate on Curve":"Accumulates curve position/tangent/normal data at specified points.",
-    "AST_Degree":"Value node accepting degree inputs.",
     "AST_Flip Indices":"Swaps 2D grid indices.\nCredit: Erindale’s tutorial.",
     "AST_Fold Attribute":"Folds attributes at specified values (e.g., 0→1→0).",
     "AST_Grid Index":"Projects custom indices onto XY coordinates for seamless geometry joining.",

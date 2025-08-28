@@ -2,7 +2,7 @@
 
 
 
-A custom Blender extension that enhances procedural modeling workflows with 100+ reusable Geometry Node groups and a powerful integrated interface.
+A custom Blender extension that enhances procedural modeling workflows with around 100 reusable Geometry Node groups and a powerful integrated interface.
 
 
 

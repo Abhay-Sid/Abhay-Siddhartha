@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "abhay_toolkit"
-version = "0.9.25"
+version = "0.9.26"
 name = "Abhay's ToolKit"
 tagline = "A custom addon for enhanced node workflows in geometry nodes"
 maintainer = "Abhay Siddahrtha <sidabhay128125@gmail.com>"

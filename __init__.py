@@ -11,7 +11,7 @@ bl_info = {
     "author": "Abhay Siddhartha",
     "description": "Custom nodes in both Add menu and UI Panel",
     "blender": (4, 2, 8),
-    "version": (0, 9, 22),
+    "version": (0, 9, 26),
     "location": "Geometry Nodes Editor > Add & UI",
     "warning": "Restart Blender after disabling",
     "category": "Node"
